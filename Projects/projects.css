@@ -7,6 +7,7 @@
     outline: none;
     scroll-behavior: smooth;
     
+    
 }
 
 body {
@@ -14,6 +15,7 @@ body {
     background-size: cover;
     overflow-x: hidden; 
     overflow-y: hidden; 
+    overflow:scroll;
   }
   .header{
     position: fixed;
@@ -348,6 +350,36 @@ body {
 
     .Project1 img, .Project2 img, .Project3 img, .Project4 img, .Project5 img, .Project6 img {
         width: 100%;
+    }
+
+    .Project1 button, .Project2 button, .Project3 button, .Project4 button, .Project5 button, .Project6 button {
+        padding: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding: 1rem 1%;
+    }
+  
+    .logo {
+        font-size: 1.8rem;
+    }
+  
+    .navbar a {
+        font-size: 1.2rem;
+        margin-left: 2rem;
+    }
+  
+
+    .gallery {
+        grid-template-columns: 1fr; /* Uma coluna */
+        gap: 15px;
+    }
+
+    .Project1 img, .Project2 img, .Project3 img, .Project4 img, .Project5 img, .Project6 img {
+        width: 100%;
+        padding-right: 10px;
     }
 
     .Project1 button, .Project2 button, .Project3 button, .Project4 button, .Project5 button, .Project6 button {
