@@ -1,0 +1,443 @@
+
+*{
+    
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    
+}
+
+body {
+  background-image: url("/assets/imgs/b.png");
+  background-size: cover;
+  overflow-x: hidden; 
+  overflow-y: hidden; 
+
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    font-family: "JetBrains Mono", monospace;
+}
+.logo{
+    font-size: 2.1rem;
+    color: white;
+    font-weight: 600;
+
+}
+
+.navbar a{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 500;
+    margin-left: 3.5rem;
+}
+.hi {
+  font-family: "JetBrains Mono", monospace;
+  color: white;
+  font-size: 48px;
+}
+
+.developer {
+  font-family: "JetBrains Mono", monospace;
+  color: white;
+  font-size: 15px;
+}
+
+.nome {
+  font-family: "JetBrains Mono", monospace;
+  color: #40a578;
+  font-size: 48px;
+  line-height: 1.2; 
+  padding: 5px 0; 
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 0.15em solid; /* Cursor */
+  animation: typing 1.5s steps(30, end) forwards,
+    blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width:100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #40a578;
+  }
+}
+.home {
+  width: 480;
+  margin-top: 60px;
+  margin-bottom: 66px;
+  margin-top: 270px;
+  float: left;
+  padding: 0 20%;
+  line-height: 180%;
+}
+
+.btn-box {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 34.5rem;
+  height: 5rem;
+}
+
+.btn-box .btn {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 70%;
+  background-color: #40a578;
+  border: 0.2rem solid #40a578;
+  border-radius: 0.8rem;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  color: white;
+  font-family: "JetBrains Mono", monospace;
+}
+
+/*.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-left: 85vh;
+    bottom: 500px;
+}*/
+
+@media (max-width: 768px) {
+  .header {
+      padding: 1rem 1%;
+  }
+
+  .logo {
+      font-size: 1.8rem;
+  }
+
+  .navbar a {
+      font-size: 1.2rem;
+      margin-left: 2rem;
+  }
+
+  .hi {
+      font-size: 36px;
+  }
+
+  .developer {
+      font-size: 13px;
+  }
+
+  .nome {
+      font-size: 36px;
+  }
+
+  .home {
+      padding: 0 5%; /* Adjust padding for smaller screens */
+  }
+
+  .btn-box {
+      flex-direction: column;
+      align-items: center;
+      max-width: 90%; /* Full width with max constraint */
+  }
+
+  .btn-box .btn {
+      width: 100%; /* Full width for each button */
+      margin-bottom: 1rem; /* Spacing between buttons */
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+  .header {
+      flex-direction: column;
+      padding: 1rem;
+  }
+
+  .logo {
+      font-size: 1.6rem;
+  }
+
+  .navbar a {
+      font-size: 1rem;
+      margin-left: 1rem;
+  }
+.home{
+  margin-left: 70px;
+  
+}
+  .hi {
+      font-size: 24px;
+  }
+
+  .developer {
+      font-size: 12px;
+  }
+
+  .nome {
+      font-size: 24px;
+  }
+
+  .home {
+      padding: 0 2%; /* Reduced padding for mobile screens */
+  }
+
+  .btn-box {
+      width: 100%; /* Full width for mobile */
+      max-width: none; /* Remove max-width constraint */
+  }
+
+  .btn-box .btn {
+      width: 100%; /* Full width for each button */
+      margin-bottom: 0.5rem; /* Reduced spacing between buttons */
+  }
+}
+
+
+*{
+    
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    
+}
+
+body {
+  background-image: url("/assets/imgs/b.png");
+  background-size: cover;
+  overflow-x: hidden; 
+  overflow-y: hidden; 
+
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    font-family: "JetBrains Mono", monospace;
+}
+.logo{
+    font-size: 2.1rem;
+    color: white;
+    font-weight: 600;
+
+}
+
+.navbar a{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 500;
+    margin-left: 3.5rem;
+}
+.hi {
+  font-family: "JetBrains Mono", monospace;
+  color: white;
+  font-size: 48px;
+}
+
+.developer {
+  font-family: "JetBrains Mono", monospace;
+  color: white;
+  font-size: 15px;
+}
+
+.nome {
+  font-family: "JetBrains Mono", monospace;
+  color: #40a578;
+  font-size: 48px;
+  line-height: 1.2; 
+  padding: 5px 0; 
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 0.15em solid; /* Cursor */
+  animation: typing 1.5s steps(30, end) forwards,
+    blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width:100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #40a578;
+  }
+}
+.home {
+  width: 480;
+  margin-top: 60px;
+  margin-bottom: 66px;
+  margin-top: 270px;
+  float: left;
+  padding: 0 20%;
+  line-height: 180%;
+}
+
+.btn-box {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 34.5rem;
+  height: 5rem;
+}
+
+.btn-box .btn {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 70%;
+  background-color: #40a578;
+  border: 0.2rem solid #40a578;
+  border-radius: 0.8rem;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  color: white;
+  font-family: "JetBrains Mono", monospace;
+}
+
+/*.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-left: 85vh;
+    bottom: 500px;
+}*/
+
+@media (max-width: 768px) {
+  .header {
+      padding: 1rem 1%;
+  }
+
+  .logo {
+      font-size: 1.8rem;
+  }
+
+  .navbar a {
+      font-size: 1.2rem;
+      margin-left: 2rem;
+  }
+
+  .hi {
+      font-size: 36px;
+  }
+
+  .developer {
+      font-size: 13px;
+  }
+
+  .nome {
+      font-size: 36px;
+  }
+
+  .home {
+      padding: 0 5%; /* Adjust padding for smaller screens */
+  }
+
+  .btn-box {
+      flex-direction: column;
+      align-items: center;
+      max-width: 90%; /* Full width with max constraint */
+  }
+
+  .btn-box .btn {
+      width: 100%; /* Full width for each button */
+      margin-bottom: 1rem; /* Spacing between buttons */
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+  .header {
+      flex-direction: column;
+      padding: 1rem;
+  }
+
+  .logo {
+      font-size: 1.6rem;
+  }
+
+  .navbar a {
+      font-size: 1rem;
+      margin-left: 1rem;
+  }
+.home{
+  margin-left: 70px;
+  
+}
+  .hi {
+      font-size: 24px;
+  }
+
+  .developer {
+      font-size: 12px;
+  }
+
+  .nome {
+      font-size: 24px;
+  }
+
+  .home {
+      padding: 0 2%; /* Reduced padding for mobile screens */
+  }
+
+  .btn-box {
+      width: 100%; /* Full width for mobile */
+      max-width: none; /* Remove max-width constraint */
+  }
+
+  .btn-box .btn {
+      width: 100%; /* Full width for each button */
+      margin-bottom: 0.5rem; /* Reduced spacing between buttons */
+  }
+}
+
+

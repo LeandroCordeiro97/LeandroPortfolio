@@ -1,0 +1,356 @@
+*{
+    
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    
+}
+
+body {
+    background-image: url("/assets/imgs/b.png");
+    background-size: cover;
+    overflow-x: hidden; 
+    overflow-y: hidden; 
+  }
+  .header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    font-family: "JetBrains Mono", monospace;
+}
+.logo{
+    font-size: 2.1rem;
+    color: white;
+    font-weight: 600;
+
+}
+
+.navbar a{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 500;
+    margin-left: 3.5rem;
+}
+
+/*Gallery*/
+
+.gallery {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 60px;
+    padding: 0px;
+    padding-top: 200px;
+   
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+
+/*Prject 1*/
+
+.Project1 {
+    position: relative; 
+    display: inline-block;
+}
+
+.Project1 img {
+    width: 420px;
+    height: auto;
+    display: block;
+    float: right;
+    margin-bottom: 15px;
+    margin-right: 1px;
+}
+.Project1 a {
+    display: block; 
+    margin-bottom: 10px; 
+    text-decoration: none;
+}
+
+.Project1 button {
+    width: 100%;  
+    transform: translate(-5%, 20%); 
+    font-family: "JetBrains Mono", monospace;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+}
+
+
+.Project1 button:nth-child(2) {
+    top: 65%; 
+}
+
+.Project1 button:hover {
+    background-color: #555;
+}
+
+
+/*Project 2*/
+
+.Project2 {
+    position: relative; 
+    display: inline-block;
+}
+
+.Project2 img {
+    width: 360px;
+    height:210px;
+    display: block;
+    float: right;
+    margin-bottom: 15px;
+    margin-right: 1px;
+}
+.Project2 a {
+    display: block; 
+    margin-bottom: 10px; 
+    text-decoration: none;
+}
+
+.Project2 button {
+    width: 100%;  
+    transform: translate(-1%, 20%); 
+    font-family: "JetBrains Mono", monospace;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+}
+
+
+.Project2 button:nth-child(2) {
+    top: 65%; 
+}
+
+.Project2 button:hover {
+    background-color: #555;
+}
+
+/*Project 3*/
+
+.Project3 {
+    
+    display: flex; 
+    display: inline-block;
+}
+
+.Project3 img {
+    width: 360px;
+    height:210px;
+    display: block;
+    float: right;
+    margin-bottom: 15px;
+    margin-right: 1px;
+}
+.Project3 a {
+    display: block; 
+    margin-bottom: 10px; 
+    text-decoration: none;
+}
+
+.Project3 button {
+    width: 100%;  
+    transform: translate(-1%, 20%); 
+    font-family: "JetBrains Mono", monospace;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+}
+
+
+.Project3 button:nth-child(2) {
+    top: 65%; 
+}
+
+.Project3 button:hover {
+    background-color: #555;
+}
+
+/*Project 4*/
+
+.Project4 {
+    
+    display: flex; 
+    display: inline-block;
+}
+
+.Project4 img {
+    width: 360px;
+    height:210px;
+    display: block;
+    float: right;
+    margin-bottom: 15px;
+    margin-right: 1px;
+}
+.Project4 a {
+    display: block; 
+    margin-bottom: 10px; 
+    text-decoration: none;
+}
+
+.Project4 button {
+    width: 100%;  
+    transform: translate(-1%, 20%); 
+    font-family: "JetBrains Mono", monospace;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+}
+
+
+.Project4 button:nth-child(2) {
+    top: 65%; 
+}
+
+.Project4 button:hover {
+    background-color: #555;
+}
+
+/*Project 5*/
+
+.Project5{
+    
+    display: flex; 
+    display: inline-block;
+}
+
+.Project5 img {
+    width: 360px;
+    height:210px;
+    display: block;
+    float: right;
+    margin-bottom: 15px;
+    margin-right: 1px;
+}
+.Project5 a {
+    display: block; 
+    margin-bottom: 10px; 
+    text-decoration: none;
+}
+
+.Project5 button {
+    width: 100%;  
+    transform: translate(-1%, 20%); 
+    font-family: "JetBrains Mono", monospace;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+}
+
+
+.Project5 button:nth-child(2) {
+    top: 65%; 
+}
+
+.Project5 button:hover {
+    background-color: #555;
+}
+
+/*Project 6*/
+
+.Project6{
+    
+    display: flex; 
+    display: inline-block;
+}
+
+.Project6 img {
+    width: 360px;
+    height:210px;
+    display: block;
+    float: right;
+    margin-bottom: 15px;
+    margin-right: 1px;
+}
+.Project6 a {
+    display: block; 
+    margin-bottom: 10px; 
+    text-decoration: none;
+}
+
+.Project6 button {
+    width: 100%;  
+    transform: translate(-1%, 20%); 
+    font-family: "JetBrains Mono", monospace;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+}
+
+
+.Project6 button:nth-child(2) {
+    top: 65%; 
+}
+
+.Project6 button:hover {
+    background-color: #555;
+}
+
+
+/* Telas muito pequenas (menos de 480px, smartphones pequenos) */
+@media (max-width: 480px) {
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    .navbar a {
+        font-size: 1rem;
+        margin-left: 1rem;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr; /* Uma coluna */
+        gap: 15px;
+    }
+
+    .Project1 img, .Project2 img, .Project3 img, .Project4 img, .Project5 img, .Project6 img {
+        width: 100%;
+    }
+
+    .Project1 button, .Project2 button, .Project3 button, .Project4 button, .Project5 button, .Project6 button {
+        padding: 14px;
+    }
+}
