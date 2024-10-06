@@ -91,7 +91,7 @@ body {
 
 .Project1 button {
     width: 100%;  
-    transform: translate(-5%, 20%); 
+    transform: translate(0%, 20%); 
     font-family: "JetBrains Mono", monospace;
     padding: 10px;
     border-radius: 10px;
@@ -367,7 +367,7 @@ body {
     }
   
     .navbar a {
-        font-size: 1.2rem;
+        font-size: 1.rem;
         margin-left: 2rem;
     }
   
