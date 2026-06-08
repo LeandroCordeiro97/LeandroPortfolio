@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url("/assets/imgs/b.png");
+  background-size: cover;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  font-family: "JetBrains Mono", monospace;
+}
+
+.logo {
+  font-size: 2.1rem;
+  color: white;
+  font-weight: 600;
+}
+
+.navbar a {
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 500;
+  margin-left: 3.5rem;
+}
+
+.certificates-container {
+  padding: 8rem 4rem 4rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-family: "JetBrains Mono", monospace;
+  color: #40a578;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.cert-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+  border: 1px solid rgba(64, 165, 120, 0.2);
+  transition:
+    border-color 0.2s,
+    transform 0.2s;
+}
+
+.cert-card:hover {
+  border-color: #40a578;
+  transform: translateY(-4px);
+}
+
+.cert-platform {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.75rem;
+  color: #40a578;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.cert-info h3 {
+  font-family: "JetBrains Mono", monospace;
+  color: white;
+  font-size: 0.95rem;
+  margin-top: 0.4rem;
+  line-height: 1.4;
+}
+
+.cert-card a {
+  display: block;
+}
+
+.cert-card button {
+  width: 100%;
+  padding: 0.6rem;
+  background-color: #1a2a2a;
+  color: white;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.85rem;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  transition: background-color 0.2s;
+}
+
+.cert-card button:hover {
+  background-color: #40a578;
+}
+
+.no-link {
+  width: 100%;
+  padding: 0.6rem;
+  background-color: rgba(64, 165, 120, 0.1);
+  color: #40a578;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.85rem;
+  border-radius: 0.4rem;
+  cursor: default;
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .certificates-container {
+    padding: 7rem 2rem 2rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .certificates-container {
+    padding: 6rem 1rem 1rem;
+  }
+
+  .navbar a {
+    font-size: 1rem;
+    margin-left: 1.5rem;
+  }
+}

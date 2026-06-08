@@ -1,0 +1,396 @@
+
+
+*{
+    
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    
+}
+body {
+  background-image: url("/assets/imgs/b.png");
+  background-size: cover;
+  overflow-x: hidden; 
+  overflow-y: hidden; 
+
+}
+.header-about{
+ 
+    top: 35px;
+    left:1200px;
+    width: 100%;
+    padding: 1rem 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    font-family: "JetBrains Mono", monospace;
+}
+
+.navbar-about a{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 500;
+    margin-left: 3.5rem;
+}
+
+.logo-about{
+    font-size: 2.1rem;
+    color: white;
+    font-weight: 600;
+
+}
+  .aboutMe{
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 20px;
+    width: 100%;
+    padding: 2rem 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    font-family: "JetBrains Mono", monospace;
+  }
+  
+  .container{
+    
+    width: 1%;
+    height: 100vh;
+    
+  
+  }
+  
+  .box {
+    width: 500px; /* Adjust as needed */
+    position: absolute;
+    left: 50%; /* Centers the element horizontally */
+    top: 50%; /* Centers the element vertically */
+    transform: translate(-50%, -50%); /* Moves the element back by half of its width and height */
+    font-family: "JetBrains Mono", monospace;
+    color: #40a578;
+    font-size: 20px; /* Adjust as needed */
+    padding: 2rem; /* Adjust padding to fit your design */
+    overflow: hidden;
+    line-height: 2; /* Adjust line-height if needed */
+}
+
+ 
+  @media (max-width: 1200px) {
+    .header-about, .aboutMe {
+        padding: 1rem;
+        flex-direction: column;
+    }
+
+    .navbar-about a {
+        font-size: 1.2rem;
+        margin-left: 1rem;
+    }
+
+    .logo-about {
+        font-size: 1.5rem;
+    }
+
+    .box {
+        font-size: 1rem;
+        padding: 1rem;
+        
+    }
+
+    .pc-img {
+        padding-bottom: 0;
+    }
+
+    .pc-img img {
+        width: 80%;
+    }
+}
+
+
+  @media (min-width: 1201px) {
+    .header-about {
+        width: 100%; 
+        padding: 1rem 5%; /* More padding for larger screens */
+    }
+
+    .navbar-about a {
+        font-size: 1.8rem; /* Larger font size */
+        margin-left: 4rem; /* Increase margin for spacing */
+    }
+
+    .logo-about {
+        font-size: 2.5rem; /* Increase font size */
+    }
+
+    .box {
+        width: 60%; /* Increase width for larger screens */
+        font-size: 22px; /* Increase font size */
+        padding: 3rem; /* Increase padding */
+    }
+
+   
+
+   
+}
+
+
+  
+/*Phone Responsive*/
+
+@media (max-width: 480px) {
+    .header-about, .aboutMe {
+        padding: 1rem;
+        flex-direction: column;
+    }
+
+    .navbar-about a {
+        font-size: 1.5rem;
+        margin-left: 0.5rem;
+    }
+
+    .logo-about {
+        font-size: 1.2rem;
+        
+    }
+
+    .box {
+        font-size: 0.7rem;
+        
+        margin-top: 45px;
+        margin-left: 10px;
+    }
+
+  
+
+}
+
+@media (max-width: 600px) {
+
+
+    .navbar-about a {
+        flex-direction: row;
+        font-size: 1rem;
+        margin-left: 2rem;
+        margin-left: 0.4rem;
+        
+    }
+
+    .logo-about {
+        font-size: 1.5rem;
+        
+    }
+
+    .box {
+        font-size: 0.9rem;
+        width: 21rem;
+        
+        margin-top: 45px;
+        margin-left: 0px;
+    }
+
+  
+
+}
+
+*{
+    
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    
+
+}
+body {
+  background-image: url("/assets/imgs/b.png");
+  background-size: cover;
+  overflow-x: hidden; 
+  overflow-y: hidden; 
+
+}
+.header-about{
+ 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    font-family: "JetBrains Mono", monospace;
+}
+
+.navbar-about a{
+      font-size: 1.5rem;
+    color: white;
+    font-weight: 500;
+    margin-left: 3.5rem;
+}
+
+.logo-about{
+    font-size: 2.1rem;
+    color: white;
+    font-weight: 600;
+
+}
+  .aboutMe{
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 20px;
+    width: 100%;
+    padding: 2rem 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    font-family: "JetBrains Mono", monospace;
+  }
+  
+  .container{
+    
+    width: 1%;
+    height: 100vh;
+    
+  
+  }
+  
+  .box {
+    width: 500px; /* Adjust as needed */
+    position: absolute;
+    left: 50%; /* Centers the element horizontally */
+    top: 50%; /* Centers the element vertically */
+    transform: translate(-50%, -50%); /* Moves the element back by half of its width and height */
+    font-family: "JetBrains Mono", monospace;
+    color: #40a578;
+    font-size: 20px; /* Adjust as needed */
+    padding: 2rem; /* Adjust padding to fit your design */
+    overflow: hidden;
+    line-height: 2; /* Adjust line-height if needed */
+}
+
+ 
+  @media (max-width: 1200px) {
+    .header-about, .aboutMe {
+        padding: 1rem;
+        flex-direction: column;
+    }
+
+    .navbar-about a {
+        font-size: 1.2rem;
+        margin-left: 1rem;
+    }
+
+    .logo-about {
+        font-size: 1.5rem;
+    }
+
+    .box {
+        font-size: 1rem;
+        padding: 1rem;
+        
+    }
+
+    .pc-img {
+        padding-bottom: 0;
+    }
+
+    .pc-img img {
+        width: 80%;
+    }
+}
+
+
+  @media (min-width: 1201px) {
+    .header-about {
+        width: 100%; 
+        padding: 1rem 5%; /* More padding for larger screens */
+    }
+
+    .navbar-about a {
+        font-size: 1.8rem; /* Larger font size */
+        margin-left: 4rem; /* Increase margin for spacing */
+    }
+
+    .logo-about {
+        font-size: 2.5rem; /* Increase font size */
+    }
+
+    .box {
+        width: 60%; /* Increase width for larger screens */
+        font-size: 22px; /* Increase font size */
+        padding: 3rem; /* Increase padding */
+    }
+
+   
+
+   
+}
+
+
+  
+/*Phone Responsive*/
+
+@media (max-width: 480px) {
+    .header-about, .aboutMe {
+        padding: 1rem;
+        flex-direction: column;
+    }
+
+    .navbar-about a {
+        font-size: 1.5rem;
+        margin-left: 0.5rem;
+    }
+
+    .logo-about {
+        font-size: 1.2rem;
+        
+    }
+
+    .box {
+        font-size: 0.7rem;
+        
+        margin-top: 45px;
+        margin-left: 10px;
+    }
+
+  
+
+}
+
+@media (max-width: 600px) {
+
+
+    .navbar-about a {
+        flex-direction: row;
+        font-size: 1rem;
+        margin-left: 2rem;
+        margin-left: 0.4rem;
+        
+    }
+
+    .logo-about {
+        font-size: 1.5rem;
+        
+    }
+
+    .box {
+        font-size: 0.9rem;
+        width: 21rem;
+        
+        margin-top: 45px;
+        margin-left: 0px;
+    }
+
+  
+
+}
+
